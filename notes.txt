@@ -1,0 +1,49 @@
+Room
+{
+    RoomID: 1,
+    RoomName: XYZ ROOM,
+    NoOFSeats: 100,
+    Amenities: [],
+    Price: 2000
+}
+
+
+Booked_Room
+{
+    CustomerName:
+    Date:
+    StartTime:
+    EndTime:
+    roomId:
+}
+
+Mentor
+{
+    mentorId: 1,
+    mentorName: "XXX",
+    experience: 6,
+    Contact: 977863213
+},
+{
+    mentorId: 2,
+    mentorName: "YYY",
+    experience: 7,
+    Contact: 977863213,
+    studentId: [1,2]
+}
+
+Student 
+{
+    studentId: 001,
+    studentName: "AAA",
+    email: "aa@gmail.com",
+    experience: 1,
+    mentorId: 2
+},
+{
+    studentId: 001,
+    studentName: "AAA",
+    email: "aa@gmail.com",
+    experience: 2,
+    mentorId: 2
+}
